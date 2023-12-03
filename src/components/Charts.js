@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { CartesianGrid, ComposedChart, Legend, Line, Tooltip, XAxis, YAxis } from 'recharts'
 
 const Charts = () => {
-    const [charts, setCharts] = useState(["uv", "", ""])
+    const [charts, setCharts] = useState(["pv", "", ""])
     const data = [
         {
             "name": "Page A",
